@@ -126,10 +126,10 @@ portkey_config = {
 
 ### Metrics
 
-Track comprehensive metrics for your AI agents, including cost, tokens used, and latency.
+Agent runs are complex. Portkey automatically logs **40+ comprehensive metrics** for your AI agents, including cost, tokens used, latency, etc. Whether you need a broad overview or granular insights into your agent runs, Portkey's customizable filters provide the metrics you need.
 
 <details>
-  <summary><b>Observability</b></summary>
+  <summary><b>Portkey's Observability Dashbaord</b></summary>
 <img src=https://github.com/siddharthsambharia-portkey/Portkey-Product-Images/blob/main/Portkey-Dashboard.png?raw=true width=70%" alt="Portkey Dashboard" />
 </details>
 
