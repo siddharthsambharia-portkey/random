@@ -4,7 +4,7 @@
 
 <br>
 
-[Portkey](https://portkey.ai) enhances AI agents with production-ready features with observability, reliability, and gaurdrails. It integrates with Autogen, offering access to 200+ LLMs, fallback strategies, performance insights, and optimization—all with 2 lines of code changes.
+[Portkey](https://portkey.ai) acts as catalyst to bring your Autogen agents from devlment to prod.  Portky has built in production-ready features like observability, reliability, and gaurdrails. Offering access to 200+ LLMs, fallback strategies, performance insights, and optimization — all with **2 lines** of code changes.
 See [Portkey Autogen docs](https://docs.portkey.ai/docs/welcome/agents/autogen)  for details 
 
 
@@ -16,13 +16,12 @@ See [Portkey Autogen docs](https://docs.portkey.ai/docs/welcome/agents/autogen) 
 4. [Advanced Features](#advanced-features)
    - [Interoperability](#interoperability)
    - [Reliability](#reliability)
-   - [Metrics and Observability](#metrics-and-observability)
+   - [Metrics and Observability](#metrics)
    - [Comprehensive Logging](#comprehensive-logging)
    - [Continuous Improvement](#continuous-improvement)
-   - [Intelligent Caching](#intelligent-caching)
+   - [Guardrails](#guardrails)
    - [Security and Compliance](#security-and-compliance)
-5. [Portkey Config](#portkey-config)
-6. [Additional Resources](#additional-resources)
+5. [Additional Resources](#additional-resources)
 
 ## Key Features
 
@@ -125,7 +124,7 @@ portkey_config = {
 }
 ```
 
-### Metrics and Observability
+### Metrics
 
 Track comprehensive metrics for your AI agents, including cost, tokens used, and latency.
 
@@ -151,7 +150,7 @@ Access detailed logs of agent activities, function calls, and errors. Filter log
 </details>
 
 ### Guardrails
- Enforce agent behavior with real-time checks on inputs and outputs
+Autogen agents, while powerful, can sometimes produce unexpected or undesired outputs. Portkey's Guardrails feature helps enforce agent behavior in real-time, ensuring your Autogen agents operate within specified parameters. Verify both the **inputs** to and *outputs* from your agents to ensure they adhere to specified formats and content guidelines. Learn more about Portkey's Guardrails [here](https://docs.portkey.ai/product/guardrails)
 
 
 ### Continuous Improvement
