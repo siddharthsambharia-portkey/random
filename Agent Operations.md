@@ -4,7 +4,7 @@
 
 <br>
 
-[Portkey](https://portkey.ai) acts as catalyst to bring your Autogen agents from devlment to prod.  Portky has built in production-ready features like observability, reliability, and gaurdrails. Offering access to 200+ LLMs, fallback strategies, performance insights, and optimization — all with **2 lines** of code changes.
+[Portkey](https://portkey.ai) acts as a catalyst to bring your Autogen agents from development to prod.  Portkey has built-in production-ready features like observability, reliability, and guardrails. Offering access to 200+ LLMs, fallback strategies, performance insights, and optimization — all with **2 lines** of code changes.
 See [Portkey Autogen docs](https://docs.portkey.ai/docs/welcome/agents/autogen)  for details 
 
 
@@ -28,7 +28,7 @@ See [Portkey Autogen docs](https://docs.portkey.ai/docs/welcome/agents/autogen) 
 | Feature | Description |
 |---------|-------------|
 | 🌐 **Multi-LLM Integration** | Access 200+ LLMs with simple configuration changes |
-| 🛡️ **Enhanced Reliability** | Implement fallbacks, load balancing, retries  and much more  |
+| 🛡️ **Enhanced Reliability** | Implement fallbacks, load balancing, retries,  and much more  |
 | 📊 **Advanced Metrics** | Track costs, tokens, latency, and 40+ custom metrics effortlessly |
 | 🔍 **Detailed Traces and Logs** | Gain insights into every agent action and decision |
 | 🚧 **Guardrails** | Enforce agent behavior with real-time checks on inputs and outputs |
