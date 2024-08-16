@@ -1,4 +1,5 @@
 # Portkey Integration with Autogen
+ <img src="https://github.com/siddharthsambharia-portkey/Portkey-Product-Images/blob/main/Portkey-Autogen.png?raw=true" alt="Portkey Metrics Visualization" width=70% />
 
 [Portkey](https://portkey.ai) is a 2-line upgrade to make your Autogen agents reliable, cost-efficient, and fast.
 
