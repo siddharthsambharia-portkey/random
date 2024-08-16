@@ -1,44 +1,12 @@
 # Portkey Integration with Autogen
 
-<img src="https://framerusercontent.com/images/TSKshn2UFdTyvUi85EDMIXrXgs.png?scale-down-to=512" alt="Portkey logo" style="width: 40%;" />
+[Portkey](https://portkey.ai) is a 2-line upgrade to make your Autogen agents reliable, cost-efficient, and fast.
 
-<br>
-
-[Portkey](https://portkey.ai) acts as a catalyst to bring your Autogen agents from development to prod.  Portkey has built-in production-ready features like observability, reliability, and guardrails. Offering access to 200+ LLMs, fallback strategies, performance insights, and optimization — all with **2 lines** of code changes.
-See [Portkey Autogen docs](https://docs.portkey.ai/docs/welcome/agents/autogen)  for details 
-
-
-## Table of Contents
-
-1. [Key Features](#key-features)
-2. [Getting Started](#getting-started)
-3. [Integration Guide](#integration-guide)
-4. [Advanced Features](#advanced-features)
-   - [Interoperability](#interoperability)
-   - [Reliability](#reliability)
-   - [Metrics and Observability](#metrics)
-   - [Comprehensive Logging](#comprehensive-logging)
-   - [Continuous Improvement](#continuous-improvement)
-   - [Guardrails](#guardrails)
-   - [Security and Compliance](#security-and-compliance)
-5. [Additional Resources](#additional-resources)
-
-## Key Features
-
-| Feature | Description |
-|---------|-------------|
-| 🌐 **Multi-LLM Integration** | Access 200+ LLMs with simple configuration changes |
-| 🛡️ **Enhanced Reliability** | Implement fallbacks, load balancing, retries,  and much more  |
-| 📊 **Advanced Metrics** | Track costs, tokens, latency, and 40+ custom metrics effortlessly |
-| 🔍 **Detailed Traces and Logs** | Gain insights into every agent action and decision |
-| 🚧 **Guardrails** | Enforce agent behavior with real-time checks on inputs and outputs |
-| 🔄 **Continuous Optimization** | Capture user feedback for ongoing agent improvements |
-| 💾 **Smart Caching** | Reduce costs and latency with built-in caching mechanisms |
-| 🔐 **Enterprise-Grade Security** | Set budget limits and implement fine-grained access controls |
-
-
-
-
+Portkey adds 4 core production capabilities to any Autogen agent:
+1. Routing to 200+ LLMs
+2. Making each LLM call more robust
+3. Full-stack tracing & cost, performance analytics
+4. Real-time guardrails to enforce behavior
 
 ## Getting Started
 
@@ -70,8 +38,22 @@ See [Portkey Autogen docs](https://docs.portkey.ai/docs/welcome/agents/autogen) 
 
    Generate your API key in the [Portkey Dashboard](https://app.portkey.ai/).
 
+And, that's it! With just this, you can start logging all of your Autogen requests and make them reliable.
 
-## Integration Guide
+## Key Features
+
+| Feature | Description |
+|---------|-------------|
+| 🌐 [Multi-LLM Integration](#interoperability) | Access 200+ LLMs with simple configuration changes |
+| 🛡️ [Enhanced Reliability](#reliability) | Implement fallbacks, load balancing, retries, and much more |
+| 📊 [Advanced Metrics](#metrics) | Track costs, tokens, latency, and 40+ custom metrics effortlessly |
+| 🔍 [Detailed Traces and Logs](#comprehensive-logging) | Gain insights into every agent action and decision |
+| 🚧 [Guardrails](#guardrails) | Enforce agent behavior with real-time checks on inputs and outputs |
+| 🔄 [Continuous Optimization](#continuous-improvement) | Capture user feedback for ongoing agent improvements |
+| 💾 [Smart Caching](#caching) | Reduce costs and latency with built-in caching mechanisms |
+| 🔐 [Enterprise-Grade Security](#security-and-compliance) | Set budget limits and implement fine-grained access controls |
+
+## Colab Notebook
 
 For a hands-on example of integrating Portkey with Autogen, check out our notebook<br> [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://git.new/Portkey-Autogen) .
 
@@ -129,7 +111,7 @@ portkey_config = {
 Agent runs are complex. Portkey automatically logs **40+ comprehensive metrics** for your AI agents, including cost, tokens used, latency, etc. Whether you need a broad overview or granular insights into your agent runs, Portkey's customizable filters provide the metrics you need.
 
 <details>
-  <summary><b>Portkey's Observability Dashbaord</b></summary>
+  <summary><b>Portkey's Observability Dashboard</b></summary>
 <img src=https://github.com/siddharthsambharia-portkey/Portkey-Product-Images/blob/main/Portkey-Dashboard.png?raw=true width=70%" alt="Portkey Dashboard" />
 </details>
 
@@ -144,14 +126,11 @@ Access detailed logs of agent activities, function calls, and errors. Filter log
 
 <details>
   <summary><b>Logs</b></summary>
-
-
   <img src="https://raw.githubusercontent.com/siddharthsambharia-portkey/Portkey-Product-Images/main/Portkey-Logs.png" alt="Portkey Metrics Visualization" width=70% />
 </details>
 
 ### Guardrails
 Autogen agents, while powerful, can sometimes produce unexpected or undesired outputs. Portkey's Guardrails feature helps enforce agent behavior in real-time, ensuring your Autogen agents operate within specified parameters. Verify both the **inputs** to and *outputs* from your agents to ensure they adhere to specified formats and content guidelines. Learn more about Portkey's Guardrails [here](https://docs.portkey.ai/product/guardrails)
-
 
 ### Continuous Improvement
 
@@ -172,7 +151,6 @@ portkey_config = {
 ### Security and Compliance
 
 Set budget limits on provider API keys and implement fine-grained user roles and permissions for both your application and the Portkey APIs.
-
 
 ## Additional Resources
 
